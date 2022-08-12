@@ -21,10 +21,7 @@
     "pug": "2.0.0-beta11"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "SET DEBUG=eduwork-server:* && nodemon ./bin/www"
   },
   "eslintConfig": {
     "extends": [
